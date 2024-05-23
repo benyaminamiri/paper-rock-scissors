@@ -31,11 +31,7 @@ elif user_choice == 1 and  computer_choice == 2:
     print("You wine!")
 elif user_choice == 2 and computer_choice == 0:
     print("You wine!")
-elif user_choice == 0 and computer_choice == 0:
-    print("widthraw")
-elif user_choice == 1 and computer_choice == 1:
-    print("Equal")
-elif user_choice == 2 and computer_choice == 2:
-    print("equal")
+elif user_choice == computer_choice:
+    print("Draw")
 else:
     print("You lose!")
