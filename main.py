@@ -21,4 +21,21 @@ if computer_choice == 0:
 elif computer_choice == 1:
     print(pics.scissors)
 elif computer_choice == 2:
-    print(pics.paper)    
+    print(pics.paper)
+
+
+# logic for winner and looser
+if user_choice == 0 and computer_choice == 1:
+    print("You wine!")
+elif user_choice == 1 and  computer_choice == 2:
+    print("You wine!")
+elif user_choice == 2 and computer_choice == 0:
+    print("You wine!")
+elif user_choice == 0 and computer_choice == 0:
+    print("widthraw")
+elif user_choice == 1 and computer_choice == 1:
+    print("Equal")
+elif user_choice == 2 and computer_choice == 2:
+    print("equal")
+else:
+    print("You lose!")
